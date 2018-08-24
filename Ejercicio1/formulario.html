@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de entrada</title>
+    <style type="text/css">
+      body form{
+          background: silver;
+          width: 85%;
+          min-width: 200px;
+          height: 500px;
+          padding:50px;
+          position: center;
+      }
+      body form label
+      {
+          margin-bottom: 3px;
+          color: cornflowerblue;
+          width: 200px;
+          display: inline-block;
+      }
+      fieldset
+      {
+          width: 700px;
+      }
+      label span
+      {
+          color: red;
+      }
+    </style>
+</head>
+
+<body>
+    <div align="center">
+        <fieldset><legend >Information </legend>
+            <form action="process.php" method="POST">
+                <h1 style="color: aqua; align-content: center;">Formulario de entrada</h1>
+                <p align="left">
+                    <label><span>* </span>Nombre: </label><input type="text" required placeholder="Juan"><br>
+                    <label><span>* </span>Sexo: </label><input type="radio"  name="genero" value="M">Masculino<input type="radio"  name="genero" value="F">Femenino<br>
+                    <label><span>* </span>Vehículos</label><input type=checkbox name="vehiculo" value="Bici">Bici <input type="checkbox" name="vehiculo" value="Coche">Coche<br>
+                    <label><span>* </span>Fichero</label><input type="file" name="file" value="Examinar"><br>
+                    <label><span>* </span>Hidden: </label><input type="hidden" name="hidden" value="hidden"><br>
+                    <label><span>* </span>Password: </label><input type="password" name="passwd" required><br>
+                    <label><span>* </span>Comida: </label><select name="comida">
+                    <option value="Carne">Carne</option>
+                    <option value="Pollo">Pollo</option>
+                    </select><br>
+                    <label><span>* </span>Bebida: </label><select name="bebida" multiple >
+                    <option value="Agua">Agua</option>
+                    <option value="Vino">Vino</option>
+                    <option value="Cerveza">cerveza</option>
+                    </select>
+                </p>
+                <label>Comentarios </label><textarea name="comment" rows="6" cols="60" placeholder="Please add your comments."></textarea>
+        </fieldset>
+    </div>
+</body>
+</html>
