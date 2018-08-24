@@ -24,7 +24,7 @@
 			width: 40%;
 			height: 400px;
 			min-width: 200px;
-			height: 450px;
+			height: 500px;
 		}
 	</style>
 </head>
