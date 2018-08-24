@@ -12,7 +12,7 @@
           height: 400px;
           padding:50px;
           position: center;
-		  height: 300px;
+		  height: 200px;
       }
 		.nmu{
 			border-top: 19px;
@@ -24,7 +24,7 @@
 			width: 50%;
 			height: 400px;
 			min-width: 200px;
-			height:300px;
+			height: 400px;
 		}
 	</style>
 </head>
