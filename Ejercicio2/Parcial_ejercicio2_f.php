@@ -5,19 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulario de entrada</title>
     <style type="text/css">
-		body form{
-			
-		}
-		.nmu{
-			border-top: 19px;
-			width: 14%;
-			height: 10%;
-			text-align: center;
-		}
 		fieldset{
 			width: 50%;
 			height: 500px;
-			min-width: 530px;
+			min-width: 200px;
 		}
 	</style>
 </head>
@@ -29,7 +20,7 @@
 			for ($i=0; $i < 4; $i++) { 
 				echo'<br><br>';
 				for ($j=0; $j < 5; $j++) { 
-					echo'<input type="Number" name="Valores'.$i.$j.'" required text-align="center" class="nmu">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp';
+					echo'<input type="Number" name="Valores'.$i.$j.'" required text-align="center"';
 				}
 			}
 			?>
