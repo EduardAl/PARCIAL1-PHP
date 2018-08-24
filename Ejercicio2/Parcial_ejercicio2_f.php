@@ -22,7 +22,7 @@
 		}
 		fieldset{
 			width: 50%;
-			height: 400px;
+			height: 350px;
 			min-width: 200px;
 		}
 	</style>
