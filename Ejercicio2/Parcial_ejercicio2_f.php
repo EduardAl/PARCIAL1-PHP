@@ -7,9 +7,9 @@
 	<style type="text/css">
 	body form{
           background: silver;
-          width: 85%;
+          width: 80%;
           min-width: 200px;
-          height: 500px;
+          height: 400px;
           padding:50px;
           position: center;
       }
