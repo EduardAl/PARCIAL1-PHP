@@ -15,7 +15,7 @@
 		echo '<table border="1" cellpading="5" cellspacing="20"><tr align="center" bgcolor="gray"><td bgcolor="black"></td><td width="50px" height="50px">0</td><td width="50px" height="50px">1</td><td width="50px" height="50px">2</td><td width="50px" height="50px">3</td><td width="50px" height="50px">4</td><td width="50px" height="50px">5</td><td width="50px" height="50px">6</td><td width="50px" height="50px">7</td><td width="50px" height="50px">8</td><td width="50px" height="50px">9</td></tr>';
 		$Mayor=$Nums[0][0];
         $PX=0;$PY=0;
-        $Mayor_fila[];
+        $Mayor_fila = [];
         $Mayor_fila[0]=$Nums[0][0];
         $Suma_fila=0;
         $Suma_col=0;
@@ -35,7 +35,10 @@
 			}
 		}
             echo "</TR><b>El valor mayor: ($Mayor) se encuentra en la posición: </b>[$PX,$PY]";
-        
+            for($i=0;$i<10;$i++)
+            {
+                echo "</TR><b>El valor mayor de la fila ($i) es: </b>"+$Mayor_fila[$i];
+            }
 	?>
 	</div>
 </body>
