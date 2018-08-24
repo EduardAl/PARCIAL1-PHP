@@ -12,7 +12,7 @@
 				$Nums[$i][$j]=$_POST['val'.$i.$j];
 			}
 		}
-		echo '<table border="1" cellpading="5" cellspacing="20"><tr align="center" bgcolor="gray"><td bgcolor="black"></td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td></tr>';
+		echo '<table border="1" cellpading="5"  width="40px" height="40px" cellspacing="20"><tr align="center" bgcolor="gray"><td bgcolor="black"></td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td></tr>';
 		$Mayor=$Nums[0][0];
 		$PX=0;$PY=0;
 		for($i=0;$i<4;$i++){
