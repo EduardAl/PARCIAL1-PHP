@@ -16,8 +16,7 @@
 		$Mayor=$Nums[0][0];
 		$PX=0;$PY=0;
 		for($i=0;$i<4;$i++){
-			echo "<TR ALIGN='center'>";
-			echo "<TD BGCOLOR='orange'>$i</TD>";
+			echo "<TR ALIGN='center'><TD BGCOLOR='orange'>$i</TD>";
 			for($j=0;$j<5;$j++){
 				echo "<TD>".$Nums[$i][$j]."</TD>";
 				if($Nums[$i][$j]>$Mayor){
@@ -27,8 +26,7 @@
 				}
 			}
 		}
-			echo "</TR>";
-			echo"<b>El valor mayor: ($Mayor) se encuentra en la posición: </b>[$PX,$PY]";
+			echo "</TR><b>El valor mayor: ($Mayor) se encuentra en la posición: </b>[$PX,$PY]";
 	?>
 	</div>
 </body>
