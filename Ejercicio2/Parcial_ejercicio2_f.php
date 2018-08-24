@@ -24,7 +24,7 @@
 			width: 50%;
 			height: 400px;
 			min-width: 200px;
-			height: 400px;
+			height: 300px;
 		}
 	</style>
 </head>
@@ -32,6 +32,7 @@
 	<div align="center">
 	<fieldset style=" min-width:400px margin-left: 100px margin-top: 50px color:silvert">
 		<form action="Parcial_ejercicio2.php" method="POST">
+		<h1 style="color: aqua; align-content: center;">Rellenar la matriz</h1>
 			<?php
 			for ($i=0; $i < 4; $i++) { 
 				echo'<br><br>';
