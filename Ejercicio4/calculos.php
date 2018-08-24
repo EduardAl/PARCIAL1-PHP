@@ -18,7 +18,7 @@
         $Mayor_fila[0]=$Nums[0][0];
         $Mayor_col=[];
         $Mayor_col[0]=$Nums[0][0];
-        $suma_filas[]=0;
+        $suma_filas[];
         $suma_col[]=0;
 		$PX=0;$PY=0;
 		for($i=0;$i<10;$i++){
