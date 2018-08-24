@@ -3,27 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<title>Valores Numéricos</title>
-	<style type="text/css">
-		body form{
-			width: 50%;
-			min-width: 530px;
-			height: 400px;
-			padding: 20px;
-			text-align: left;
-		}
-		body form input{
-			border-top: 19px;
-		}
-		body form label{
-			width: 200px;
-			display: inline-block;
-		}
-		fieldset{
-			width: 50%;
-			height: 500px;
-			min-width: 530px;
-		}
-	</style>
 </head>
 <body>
 	<?php
