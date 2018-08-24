@@ -21,10 +21,10 @@
 			text-align: center;
 		}
 		fieldset{
-			width: 50%;
+			width: 40%;
 			height: 400px;
 			min-width: 200px;
-			height: 400px;
+			height: 450px;
 		}
 	</style>
 </head>
