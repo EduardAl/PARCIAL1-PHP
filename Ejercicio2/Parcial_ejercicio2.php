@@ -12,7 +12,15 @@
 				$Nums[$i][$j]=$_POST['Valores'.$i.$j];
 			}
 		}
-
+		echo '<table border="1" cellpading="2" cellspacing="10">'
+			. '<tr align="center" bgcolor="blue">'
+			. '<td bgcolor="black"></td>'
+			. '<td>0</td>'
+			. '<td>1</td>'
+			. '<td>2</td>'
+			. '<td>3</td>'
+			. '<td>4</td>'
+			. '</tr>';
 		$Mayor=$Nums[0][0];
 		$PX=0;$PY=0;
 		for($i=0;$i<4;$i++){
@@ -28,16 +36,7 @@
 			}
 		}
 			echo "</TR>";
-			echo"<b>El valor mayor: ($Mayor) se encuentra en la posición: </b>[$PX,$Y]";
-			echo '<table border="1" cellpading="2" cellspacing="10">'
-			. '<tr align="center" bgcolor="blue">'
-			. '<td bgcolor="black"></td>'
-			. '<td>0</td>'
-			. '<td>1</td>'
-			. '<td>2</td>'
-			. '<td>3</td>'
-			. '<td>4</td>'
-			. '</tr>';
+			echo"<b>El valor mayor: ($Mayor) se encuentra en la posición: </b>[$PX,$PY]";
 	?>
 	</div>
 </body>

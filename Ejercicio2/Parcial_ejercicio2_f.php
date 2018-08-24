@@ -27,7 +27,7 @@
 </head>
 <body>
 	<div align="center">
-	<fieldset style=" min-width:400px margin-left: 100px margin-top: 50px color:silver">
+	<fieldset style=" min-width:400px margin-left: 100px margin-top: 50px color:silvert">
 		<form action="Parcial_ejercicio2.php" method="POST">
 			<?php
 			for ($i=0; $i < 4; $i++) { 
