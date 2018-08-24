@@ -16,6 +16,8 @@
         $Mayor=$Nums[0][0];
         $Mayor_fila=[];
         $Mayor_fila[0]=$Nums[0][0];
+        $Mayor_col=[];
+        $Mayor_col[0]=$Nums[0][0];
         $suma_filas[]=0;
         $suma_col[]=0;
 		$PX=0;$PY=0;
@@ -25,12 +27,8 @@
                 echo "<TD width='40px' height='40px' >".$Nums[$i][$j]."</TD>";
                 if($Nums[$i][$j]>$Mayor_col[$i])
                 {
+                    $Mayor_col=$Nums[$i][$j];
                     $suma_col+=$Nums[$i][$j];
-                }
-                if($Nums[$j][$i]>$Mayor_fila[$i])
-                {
-                    $Mayor_fila=$Nums[$j][$i];
-                    $suma_filas+=$Nums[$j][$i];
                 }
                 if($Nums[$i][$j]>$Mayor)
                 {
@@ -40,11 +38,7 @@
 				}
 			}
 		}
-            echo "</TR><b>El valor mayor de la matriz: ($Mayor)";
-            for($i=0;$i<10;$i++)
-            {
-            echo "</TR><b>El valor mayor de la fila $i es: ($Mayor_fila[$i])";
-            }
+			echo "</TR><b>El valor mayor de la matriz: ($Mayor)";
 	?>
 	</div>
 </body>
