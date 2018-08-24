@@ -9,7 +9,7 @@
 		$Nums = [];
 		for($i=0;$i<4;$i++){
 			for($j=0;$j<5;$j++){
-				$Nums[$i][$j]=$_POST['Valores'.$i.$j];
+				$Nums[$i][$j]=$_POST['val'.$i.$j];
 			}
 		}
 		echo '<table border="1" cellpading="2" cellspacing="10">'
