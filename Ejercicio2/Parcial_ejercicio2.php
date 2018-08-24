@@ -12,15 +12,7 @@
 				$Numeros[$i][$j]=$_POST['Valores'.$i.$j];
 			}
 		}
-		echo '<table border="1" cellpading="2" cellspacing="10">'
-			. '<tr align="center" bgcolor="blue">'
-			. '<td bgcolor="black"></td>'
-			. '<td>0</td>'
-			. '<td>1</td>'
-			. '<td>2</td>'
-			. '<td>3</td>'
-			. '<td>4</td>'
-			. '</tr>';
+
 		$Mayor=$Numeros[0][0];
 		$PosicionX=0;$PosicionY=0;
 		for($i=0;$i<4;$i++){
