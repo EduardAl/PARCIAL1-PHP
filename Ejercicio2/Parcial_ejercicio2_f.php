@@ -12,7 +12,7 @@
           height: 400px;
           padding:50px;
           position: center;
-		  height: 200px;
+		  height: 400px;
       }
 		.nmu{
 			border-top: 19px;
@@ -21,10 +21,10 @@
 			text-align: center;
 		}
 		fieldset{
-			width: 50%;
+			width: 40%;
 			height: 400px;
 			min-width: 200px;
-			height: 300px;
+			height: 400px;
 		}
 	</style>
 </head>
