@@ -12,6 +12,7 @@
           height: 400px;
           padding:50px;
           position: center;
+		  height: 300px;
       }
 		.nmu{
 			border-top: 19px;
@@ -29,7 +30,7 @@
 <body>
 	<div align="center">
 	<fieldset style=" min-width:400px margin-left: 100px margin-top: 50px color:silvert">
-		<form action="Parcial_ejercicio2.php" method="POST" width="80%" min-width="500px" height="400px" padding="20px"	text-align="left">
+		<form action="Parcial_ejercicio2.php" method="POST">
 			<?php
 			for ($i=0; $i < 4; $i++) { 
 				echo'<br><br>';
