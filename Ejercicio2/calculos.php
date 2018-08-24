@@ -9,7 +9,7 @@
 		$Nums = [];
 		for($i=0;$i<4;$i++){
 			for($j=0;$j<5;$j++){
-				$Nums[$i][$j]=$_POST['val'.$i.$j];
+				$Nums[$i][$j]=(rand(-900 , 900));
 			}
 		}
 		echo '<table border="1" cellpading="5" cellspacing="20"><tr align="center" bgcolor="gray"><td bgcolor="black"></td><td width="60px" height="60px">0</td><td width="60px" height="60px">1</td><td width="60px" height="60px">2</td><td width="60px" height="60px">3</td><td width="60px" height="60px">4</td></tr>';
