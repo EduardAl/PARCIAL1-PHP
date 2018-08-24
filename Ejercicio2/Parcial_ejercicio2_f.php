@@ -35,7 +35,7 @@
 			for ($i=0; $i < 4; $i++) { 
 				echo'<br><br>';
 				for ($j=0; $j < 5; $j++) { 
-					echo'<input type="Number" name="val'.$i.$j.'" required text-align="center" class="nmu">&nbsp&nbsp&nbsp&nbsp&nbsp';
+					echo'<input type="Number" name="val'.$i.$j.'" required text-align="center" class="nmu">&nbsp&nbsp&nbsp';
 				}
 			}
 			?>
