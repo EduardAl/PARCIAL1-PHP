@@ -1,31 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<meta charset="utf-8">
-	<title>Formulario</title>
-	<style type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de entrada</title>
+    <style type="text/css">
 		body form{
-			width: 50%;
-			min-width: 530px;
+			width: 80%;
+			min-width: 500px;
 			height: 400px;
 			padding: 20px;
 			text-align: left;
-		}
-		body form input{
-			border-top: 19px;
-			width: 14%;
-			height: 30px;
-			text-align: center;
 		}
 		.nmu{
 			border-top: 19px;
 			width: 14%;
 			height: 10%;
 			text-align: center;
-		}
-		body form label{
-			width: 200px;
-			display: inline-block;
 		}
 		fieldset{
 			width: 50%;
@@ -36,7 +27,7 @@
 </head>
 <body>
 	<div align="center">
-	<fieldset style=" min-width:400px margin-left: 100px margin-top: 50px"><legend>. Formulario .</legend>
+	<fieldset style=" min-width:400px margin-left: 100px margin-top: 50px color:silver">
 		<form action="Parcial_ejercicio2.php" method="POST">
 			<?php
 			for ($i=0; $i < 4; $i++) { 
@@ -46,7 +37,7 @@
 				}
 			}
 			?>
-			<br><br><input type="Submit" name="Enviar" Value="Aceptar" align="center">
+			<br><br><input type="Submit" name="send" Value="Encontrar mayou" align="center">
 		</form>
 		</fieldset>
 	</div>
