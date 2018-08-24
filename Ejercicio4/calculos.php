@@ -34,9 +34,9 @@
                 if($Nums[$i][$j]>$Mayor_fila[$i])
                 {
                     $Mayor_fila[$i]=$Nums[$i][$j];
-                    $Suma_fila[$i]=$Suma_fila[$i]+$Nums[$i][$j];
-                    $Suma_col[$i]=$Suma_col[$i]+$Nums[$j][$i];
                 }
+                $Suma_fila[$i]=$Suma_fila[$i]+$Nums[$i][$j];
+                $Suma_col[$i]=$Suma_col[$i]+$Nums[$j][$i];
 			}
         }
         $Suma_col_m=$Suma_col[0];
