@@ -58,8 +58,8 @@
                 }
                 echo "</TR><b>El valor mayor de la fila ($i) es: </b>".$Mayor_fila[$i]."<br>";
             }
-            echo "</TR><b>La fila con la mayor suma es la fila ($posx) con: </b>".$Suma_fila_m[$i]."<br>";
-            echo "</TR><b>La columna con la mayor suma es la columna ($posy) con: </b>".$Suma_col_m[$i]."<br>";
+            echo "</TR><b>La fila con la mayor suma es la fila ($posx) con: </b>".$Suma_fila_m."<br>";
+            echo "</TR><b>La columna con la mayor suma es la columna ($posy) con: </b>".$Suma_col_m."<br>";
 	?>
 	</div>
 </body>
