@@ -35,10 +35,7 @@
 			}
 		}
             echo "</TR><b>El valor mayor: ($Mayor) se encuentra en la posición: </b>[$PX,$PY]";
-            for($i=0;$i<10;$i++)
-            {
-                echo "</TR><b>El valor mayor de la fila ($i) es: </b>"+$Mayor_fila[$i];
-            }
+        
 	?>
 	</div>
 </body>
