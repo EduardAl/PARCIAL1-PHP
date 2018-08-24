@@ -22,8 +22,9 @@
 		}
 		fieldset{
 			width: 50%;
-			height: 350px;
+			height: 400px;
 			min-width: 200px;
+			height:300px;
 		}
 	</style>
 </head>
